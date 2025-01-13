@@ -5,14 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
   <meta name="docsearch:language" content="en">
   <meta name="docsearch:version" content="7.8">
-  <meta name="description" content="Bootstrap Extra is a free and advanced open source front end development framework for the creation of websites and web apps.">
+  <meta name="description"
+    content="Bootstrap Extra is a free and advanced open source front end development framework for the creation of websites and web apps.">
   <meta name="keywords" content="HTML, CSS, JavaScript, Responsive, Mobile, App, Jquery">
   <meta name="author" content="Irfan Ghuori">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
   <link rel="stylesheet" href="css/animation.css" />
   <link rel="stylesheet" href="css/bootstrap.css">
-
+  <link rel="stylesheet" href="plugin/css/fonts.min.css">
   <title>Bootstrap Extra 7.8</title>
   <!-- Fonts and icons -->
   <style>
@@ -32,11 +33,12 @@
     .btn-switch {
       float: right;
     }
-    .btn i{
-     padding-right: 0.1em;
-     padding-left: -0.4em;
 
-      }
+    .btn i {
+      padding-right: 0.1em;
+      padding-left: -0.4em;
+
+    }
   </style>
 </head>
 
@@ -270,20 +272,198 @@
           <!-- Additional buttons  -->
         </div>
 
+
+        <!--  -->
+        <div class="row">
+<div class="col-md-6">
+  <div class="card">
+    <div class="card-header">  Sizing Buttons </div>
+    <div class="card-body">
+      <p>Use Font Awesome Icons (included with this theme package) along with the sizing buttons as shown in
+        the examples below!</p>
+      <!-- Buttons (Default) -->
+       <div class="card-body"> 
+        code Example :
+        <pre>
+          <code>
+            &lt;a href="#" class="btn btn-primary btn-lg">
+              &lt;i class="fab fa-facebook-f">&lt;/i>
+            &lt;/a>
+          </code>
+       </div>
+      <div class="mb-2">
+        <code>.btn</code> only
+      </div>
+      <a href="#" class="btn btn-primary">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="#" class="btn btn-success">
+        <i class="fas fa-check"></i>
+      </a>
+      <a href="#" class="btn btn-info">
+        <i class="fas fa-info-circle"></i>
+      </a>
+      <a href="#" class="btn btn-warning">
+        <i class="fas fa-exclamation-triangle"></i>
+      </a>
+      <a href="#" class="btn btn-danger">
+        <i class="fas fa-trash"></i>
+      </a>
+      <!-- Buttons (Small) -->
+      <div class="mt-4 mb-2">
+        with <code>.btn-sm</code>
+      </div>
+      <a href="#" class="btn btn-primary btn-sm">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="#" class="btn btn-success btn-sm">
+        <i class="fas fa-check"></i>
+      </a>
+      <a href="#" class="btn btn-info btn-sm">
+        <i class="fas fa-info-circle"></i>
+      </a>
+      <a href="#" class="btn btn-warning btn-sm">
+        <i class="fas fa-exclamation-triangle"></i>
+      </a>
+      <a href="#" class="btn btn-danger btn-sm">
+        <i class="fas fa-trash"></i>
+      </a>
+      <!-- Buttons (Large) -->
+      <div class="mt-4 mb-2">
+        with <code>.btn-lg</code>
+      </div>
+      <a href="#" class="btn btn-primary btn-lg">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="#" class="btn btn-success btn-lg">
+        <i class="fas fa-check"></i>
+      </a>
+      <a href="#" class="btn btn-info btn-lg">
+        <i class="fas fa-info-circle"></i>
+      </a>
+      <a href="#" class="btn btn-warning btn-lg">
+        <i class="fas fa-exclamation-triangle"></i>
+      </a>
+      <a href="#" class="btn btn-danger btn-lg">
+        <i class="fas fa-trash"></i>
+      </a>
+
+    </div>
+  </div>
+</div>
+
+<div class="col-md-6">
+  <div class="card">
+    <div class="card-header"> Split Buttons with Icon </div>
+    <div class="card-body">
+      <p>Works with any button colors, just use the <code>.btn-icon-split</code> class and
+        the markup in the
+        examples below. The examples below also use the <code>.text-white-50</code>
+        helper class on the
+        icons for additional styling, but it is not required.</p>
+        <div class="card-body">
+          code Example :
+          <pre>
+            <code>
+              &lt;a href="#" class="btn btn-primary btn-icon-split">
+                &lt;span class="icon text-white-50">
+                  &lt;i class="fas fa-flag">&lt;/i>
+                &lt;/span>
+                &lt;span class="text">Split Button Primary&lt;/span>
+              &lt;/a>
+            </code>
+          </pre>
+        </div>
+      <a href="#" class="btn btn-primary btn-icon-split">
+        <span class="icon text-white-50">
+          <i class="fas fa-flag"></i>
+        </span>
+        <span class="text">Split Button Primary</span>
+      </a>
+      <div class="my-2"></div>
+      <a href="#" class="btn btn-success btn-icon-split">
+        <span class="icon text-white-50">
+          <i class="fas fa-check"></i>
+        </span>
+        <span class="text">Split Button Success</span>
+      </a>
+      <div class="my-2"></div>
+      <a href="#" class="btn btn-info btn-icon-split">
+        <span class="icon text-white-50">
+          <i class="fas fa-info-circle"></i>
+        </span>
+        <span class="text">Split Button Info</span>
+      </a>
+      <div class="my-2"></div>
+      <a href="#" class="btn btn-warning btn-icon-split">
+        <span class="icon text-white-50">
+          <i class="fas fa-exclamation-triangle"></i>
+        </span>
+        <span class="text">Split Button Warning</span>
+      </a>
+      <div class="my-2"></div>
+      <a href="#" class="btn btn-danger btn-icon-split">
+        <span class="icon text-white-50">
+          <i class="fas fa-trash"></i>
+        </span>
+        <span class="text">Split Button Danger</span>
+      </a>
+      <div class="my-2"></div>
+      <a href="#" class="btn btn-secondary btn-icon-split">
+        <span class="icon text-white-50">
+          <i class="fas fa-arrow-right"></i>
+        </span>
+        <span class="text">Split Button Secondary</span>
+      </a>
+      <div class="my-2"></div>
+      <a href="#" class="btn btn-light btn-icon-split">
+        <span class="icon text-gray-600">
+          <i class="fas fa-arrow-right"></i>
+        </span>
+        <span class="text">Split Button Primary</span>
+      </a>
+      <div class="mb-4"></div>
+      <p>Also works with small and large button classes!</p>
+      <a href="#" class="btn btn-primary btn-icon-split btn-sm">
+        <span class="icon text-white-50">
+          <i class="fas fa-flag"></i>
+        </span>
+        <span class="text">Split Button Small</span>
+      </a>
+      <div class="my-2"></div>
+      <a href="#" class="btn btn-primary btn-icon-split btn-lg">
+        <span class="icon text-white-50">
+          <i class="fas fa-flag"></i>
+        </span>
+        <span class="text">Split Button Large</span>
+      </a>
+
+    </div>
+  </div>
+</div>
+
+
+          
+
+          
+
+        </div>
+
+        <!--  -->
         <div class="heading "> Button with icons</div>
         <div class="mb-3">Basic example with Font Awesome icons: 900+ icons in Bootstrap Extra </div>
 
         <div class="container">
           <a class="btn icon-btn btn-default" href="#Download"><i class="fa fa-home"></i> Download</a>
-          <a class="btn icon-btn btn-muted" href="#Unavailable"><i class="fas fa-lock"></i>  Unavailable</a>
+          <a class="btn icon-btn btn-muted" href="#Unavailable"><i class="fas fa-lock"></i> Unavailable</a>
           <a class="btn icon-btn btn-primary" href="#Cart"><i class="fas fa-thumbs-up"></i> Like</a>
           <a class="btn icon-btn btn-success" href="#Share"><i class="fas fa-cart-plus"></i> Cart </a>
           <a class="btn icon-btn btn-info" href="#Share"><i class="fas fa-share-alt"></i> Share</a>
           <a class="btn icon-btn btn-warning text-white" href="#"><i class="fas fa-minus-circle"></i> Remove</a>
           <a class="btn icon-btn btn-danger" href="#"><i class="fas fa-trash-alt"></i> Delete</a>
-          </div>
-      
-      
+        </div>
+
+
 
 
       </div>
@@ -294,7 +474,7 @@
 
 
 
-<br><br>
+  <br><br>
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
