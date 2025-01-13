@@ -25,6 +25,7 @@ IrfanGhuori@yandex.com
   - Play YouTube or Vimeo Videos with Modal
   - Texts limitation button
   - Navbar redesigned
+  - UI Colors
   - 44 Image Hover effects
   - 16th Shadow Effects
   - Tooltips redesigned
