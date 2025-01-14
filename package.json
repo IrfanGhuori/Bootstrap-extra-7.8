@@ -1,0 +1,17 @@
+{
+  "name": "bootstrap-extra ",
+  "description": "Bootstrap 7.8.0 is the latest update, and it is the 1-14-2025 major changes version of the popular front-end framework for building responsive, mobile-first websites.",
+  "version": "7.8.0",
+  "config": {
+    "version_short": "5.3"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web"
+  ]
+}
