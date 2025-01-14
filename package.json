@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap-extra",
+  "version": "7.8.0",
+  "description": "Bootstrap project with live server",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server src",
+    "dev": "live-server src --port=8080 --open=index.html"
+  },
+  "dependencies": {
+    "bootstrap": "^7.8.0",
+    "@popperjs/core": "^2.11.8"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "author": "Irfan Ghuori",
+  "license": "ISC"
+}
