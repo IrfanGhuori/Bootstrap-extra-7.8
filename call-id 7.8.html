@@ -37,9 +37,7 @@
             margin: 3px;
         }
         
-        pre span {
-            font-size: 1rem;
-        }
+   
         
         small {
             background: rgb(248, 248, 150);
@@ -67,7 +65,7 @@
                 <code>
 <pre>
 Code Example:
-
+<code>
     &lt;a href="#aboutUs"> About Us  &lt;/a>
 
     &lt;div id="aboutUs">
@@ -84,6 +82,7 @@ Code Example:
     &lt;------------------------------------------------------------------------------->
     Code Example:
     &lt;a class="goup" id="" href="#home"> &lt;img src="images/top.png" alt="web-header" >&lt;/a> 
+</code>
 </pre>
 
 
@@ -95,29 +94,41 @@ Code Example:
 
         </div>
         <div class="card-footer">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <div class="navbar-toggler-icon"></div>          
-                    </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link scrollLink" href="#box1">Box 1 <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link scrollLink" href="#box2">Box 2</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link scrollLink" href="#box3">Box 3</a>
-                        </li>
+            <nav class="navbar navbar-expand-lg bg-light ">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  
+                    <div class="menu-icon">
+                      <input class="menu-toggler_icon" type="checkbox" />
+                      <div>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </div>
+        
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#box1">box1</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#box2">box2</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#box3">box3</a>
+                      </li>
+                      
+                     
                     </ul>
-
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
                 </div>
-                <a href="mailto:m.irfan_ahmed@hotmail.com" class="float-right" rel="noreferrer">Think big, I'll make it possible :)</a>
-            </nav>
-
+              </nav>
 
         </div>
 
@@ -127,20 +138,23 @@ Code Example:
 
 
     <div class="container">
+        <div id="box1"></div>
         <h3 class="display-2 mt-lg-12x"> Box 1 </h3>
-        <div id="box1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim necessitatibus rerum consectetur accusamus, quisquam unde sapiente labore mollitia ea fuga molestiae libero! Quam, consectetur eius exercitationem nostrum adipisci ut iusto cumque reiciendis
+        <div > Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim necessitatibus rerum consectetur accusamus, quisquam unde sapiente labore mollitia ea fuga molestiae libero! Quam, consectetur eius exercitationem nostrum adipisci ut iusto cumque reiciendis
             quia libero, repellat eveniet dolore. Nihil dolor deleniti quaerat quas sed accusamus optio, dignissimos similique nobis id blanditiis esse magni corporis eum ratione mollitia porro adipisci dolores cumque quam ducimus. Nam minus in iure doloribus
             magni ex? Reprehenderit quae omnis nostrum est aperiam natus nulla veritatis hic minus aut, impedit blanditiis! Laborum expedita at dolores, nesciunt itaque obcaecati, explicabo ratione ipsum voluptatibus voluptate inventore? Ad eum voluptate
             eos? </div>
 
+            <div id="box2"></div>
         <h3 class="display-2 mt-lg-12x"> Box 2 </h3>
-        <div id="box2" class="bm-10"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim necessitatibus rerum consectetur accusamus, quisquam unde sapiente labore mollitia ea fuga molestiae libero! Quam, consectetur eius exercitationem nostrum adipisci ut iusto cumque reiciendis
+        <div  class="bm-10"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim necessitatibus rerum consectetur accusamus, quisquam unde sapiente labore mollitia ea fuga molestiae libero! Quam, consectetur eius exercitationem nostrum adipisci ut iusto cumque reiciendis
             quia libero, repellat eveniet dolore. Nihil dolor deleniti quaerat quas sed accusamus optio, dignissimos similique nobis id blanditiis esse magni corporis eum ratione mollitia porro adipisci dolores cumque quam ducimus. Nam minus in iure doloribus
             magni ex? Reprehenderit quae omnis nostrum est aperiam natus nulla veritatis hic minus aut, impedit blanditiis! Laborum expedita at dolores, nesciunt itaque obcaecati, explicabo ratione ipsum voluptatibus voluptate inventore? Ad eum voluptate
             eos? </div>
 
+        <div id="box3"></div>
         <h3 class="display-2 mt-lg-12x"> Box 3 </h3>
-        <div id="box3" class="bm-10"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim necessitatibus rerum consectetur accusamus, quisquam unde sapiente labore mollitia ea fuga molestiae libero! Quam, consectetur eius exercitationem nostrum adipisci ut iusto cumque reiciendis
+        <div  class="bm-10"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim necessitatibus rerum consectetur accusamus, quisquam unde sapiente labore mollitia ea fuga molestiae libero! Quam, consectetur eius exercitationem nostrum adipisci ut iusto cumque reiciendis
             quia libero, repellat eveniet dolore. Nihil dolor deleniti quaerat quas sed accusamus optio, dignissimos similique nobis id blanditiis esse magni corporis eum ratione mollitia porro adipisci dolores cumque quam ducimus. Nam minus in iure doloribus
             magni ex? Reprehenderit quae omnis nostrum est aperiam natus nulla veritatis hic minus aut, impedit blanditiis! Laborum expedita at dolores, nesciunt itaque obcaecati, explicabo ratione ipsum voluptatibus voluptate inventore? Ad eum voluptate
             eos? </div>
@@ -149,7 +163,7 @@ Code Example:
         <br>
 
 
-        <a class="goup" id="" href="#home"><img src="images/top.png" alt=""></a>
+        <a class="img-top" id="" href="#home"><img src="images/top.png" alt=""></a>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script>
         </script>
